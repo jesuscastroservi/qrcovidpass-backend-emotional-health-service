@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covidpass-desarrollo",
+  "private_key_id": "999364e5e147bc84231e6d4234ae7e6140be8603",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjHs5GgWRRTwWj\n8DVPXUq0cd17FKvyi/JAN8xPxsdud+bezlAyFE8OOvF7JEntx1+F/un5egFCR2G7\ngdmIOwcdJlbdoTCK5b8DCvRzrq0mwUwp5FrbfLgkpRuLeY7R8cbVvbrZLYTb53LX\nELys9Igl4p+vRMxu04OLHc3JSMEtc10KRIxzPuBcuEv/TABAN6VptnmoopRe7xIA\nWWLIMq9FLz5xjjCrDrIDWN2wlyCnSby4CTKvU28BDdmguqpdzwC/iTWTHqpfigjJ\npcOCq8oj4qi9vNZ9mmX6AcFCDrorsoC9qO48pzoa+W90yhyjkiCO7Spb11V6dZyY\nZOtVRvJTAgMBAAECggEAF1w+iz9ViAVql987Kzn/jFbwMoOz2kDreQHkqxobDnly\nYT8nofxhk/aiBZIdWkWeqvhmNpmf24eQegNvDUDy1FxcvVGru4CKeduURYri9jVh\nfHBdCKjUUD8q8i7+4pce9BY/T4Hi0IFVY3JcquI8KzzIxJd0NXzqDj6+7VAThjgQ\nKS3QvyPWYV9IiBlAFiOWYDBuMq2kvknVsrA3OR8hOecSa4dc7UnQ7ve2LLzbw1cC\nZb+2PtJO9z95vQeGcZQXpV8/eTiqE/D343d4Pqenw8STFebzhE8ys8I5Hl60jWYm\nyKppTLeS9ekqV4HBR1cke1rSMdX/R2MP7rnvp6u4eQKBgQDVi+8RCGdlqCfY1obx\nJKQZQXxj/WGB1p4rAuALYakTRQkTE5AxWhqSYhxH0J0SUTfkMdkVifsHvSQ2FUTc\nhi+zDmH1Z3NjiuKj9+I6vsDKCZ5ss1z5ssJiRUkMQqUP6JCRrq4V1GRkIocGzKyd\nK4fKKZQcLjuPR7KkE0So5CkYyQKBgQDDjISlAEIL6uvM2Kputqni377zHuxCauWH\nvcXhb45qBCaK3yoFrlqigayaxbj9IhntO7wb0nOk9lrH0mXuG2qEoIgLT3AbS4yZ\nhMRmvCWh8pIOqta/ZS4LBGIpyp/n4Eq/Xweqgv6/8giZDbBYQcNXtIkrSoeSt8Aq\nkFcPfLZcOwKBgQCGqRJdTE5fdXWDMGyxvehZIMl/CDYnuR3Og6aiprgGtb7uL6T6\n6hXdf07UHoIeHec/2AtLoNIS5Dvkeu8MnPWRVR2CsfS6rccTnOolH0rVXNFxPH4B\n267mZ0iUGaaa7I3VwDB5BZE07+zz5bdn+R5M5oFGcAUQ6iaFfr0KP66GuQKBgQCu\ndNqR6h0CTN95rYK/qy79POg6NkhJKN0FsQStDr1bT8Ci/F2dG+O4P0AiBGv5SUcg\nIr67g5GwhiiPROGy/7qUADPfA0vczhXtkEk37nsUdDhh5YAY2MevBIYfCqqGT8/f\n04QfVya3T9Lj2RaOZn1D7cjCWoeBGXXTg1pocrauqQKBgDe0GMM49FBYUmP5+yEa\nrufkrIKy/07Us5PRRfx3Kao/u6gzE9w7TSH4WesLG2y6Eqkgp/7OsjJ6bLxJD4aA\nJ4owmJhkGa4q8C+1OI6d97p1OBf9tWh7vPkvQWwXeaPHlyt4+lzzThuTyAxuHLN1\nZCVGz94i1SDnVgCJxC4DXNOl\n-----END PRIVATE KEY-----\n",
+  "client_email": "covidpass-desa@covidpass-desarrollo.iam.gserviceaccount.com",
+  "client_id": "111323594542147621112",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/covidpass-desa%40covidpass-desarrollo.iam.gserviceaccount.com"
+}
