@@ -21,18 +21,21 @@ class SecurityCipherData:
         return {"data": str(ciphertext)}
 
     def decrypt(enc_dict):
-
         key = b'0123456789012345' # clave para cifrar
         iv= b'0123456789012345' # IV
         BS = AES.block_size # Tamaño del bloque de cbc
         cipher = AES.new(key, AES.MODE_CBC, iv)
         decrypted = cipher.decrypt(b64decode(enc_dict['data']))
-        decrypted_text = unpad(decrypted, 16)
-        json_dump = str(decrypted_text).replace('\'', '\"')
-        data_decrypt=json.loads(json_dump[2:-1])
-        request.data =data_decrypt
-        json_object = json.dumps(request.data, indent = 4) 
-        data = json.loads(json_object)
-        request.args=data
+        try:
+            decrypted = unpad(decrypted, 16)
+        except:
+            pass
+        decrypted=decrypted.decode(encoding='utf-8-sig')
+        json_object = json.dumps(decrypted, indent = 4, sort_keys=True) 
+        res = json.loads(json_object) 
 
-        return json.loads(json_dump[2:-1])
+        json_acceptable_string = str(res).replace('\\',"")
+        data=json.loads(json_acceptable_string)
+        request.data =data
+        request.args=data
+        return data
