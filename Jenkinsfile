@@ -227,8 +227,8 @@ spec:
           echo '---- VERIFICACION DIRECTORIO DE DESPLIEGUE ----'
           sh 'ls despliegues/refactor/${microservicio}/'
           echo '----------------------------------------------'
-          sh "sed -i.bak 's#{imageTag}#${imageTag_Ref}#' despliegues/refactor/${microservicio}/deployment.yaml"
-          sh 'kubectl apply -f despliegues/refactor/${microservicio}/deployment.yaml'
+          sh "sed -i.bak 's#{imageTag}#${imageTag_Ref}#' despliegues/refactor/emotional-health-service/deployment.yaml"
+          sh 'kubectl apply -f despliegues/refactor/emotional-health-service/deployment.yaml'
         }
   
 
@@ -253,8 +253,8 @@ stage('Deploy REFACTOR QA') {
           withCredentials([usernamePassword(credentialsId: 'Jenkins-GitLab', passwordVariable: 'password', usernameVariable: 'username')]) {
             sh "git clone https://$username:$password@git.co.davivienda.com/qrcovidpass/servinformacion/devops/despliegues.git"
           }
-          sh "sed -i.bak 's#{imageTag}#${imageTag_Ref}#' despliegues/refactor_qa/${microservicio}/deployment.yaml"
-          sh "kubectl apply -f despliegues/refactor_qa/${microservicio}/deployment.yaml"
+          sh "sed -i.bak 's#{imageTag}#${imageTag_Ref}#' despliegues/refactor_qa/emotional-health-service/deployment.yaml"
+          sh "kubectl apply -f despliegues/refactor_qa/emotional-health-service/deployment.yaml"
         }
        }
     }
